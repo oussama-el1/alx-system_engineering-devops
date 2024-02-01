@@ -4,6 +4,3 @@
 sudo apt update;
 sudo apt install -y nginx;
 sudo service nginx start
-cd /etc/nginx/sites-enabled/ || exit;
-ln -s /etc/nginx/sites-available/default default;
-service nginx restart
