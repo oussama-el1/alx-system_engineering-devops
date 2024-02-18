@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+#run nginx as nginx user
+
+sudo sed -i '1i\user nginx;' /etc/nginx/nginx.conf
+sudo service nginx restart
